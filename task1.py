@@ -17,7 +17,7 @@ def arbitraryHashPrint(userInput):
 def arbitraryHashReturn(userInput):
    a = SHA256.new() 
    a.update(userInput)
-   aSHA = a.hexdigest()[:7] # truncate
+   aSHA = a.hexdigest()[:12] # truncate
 
    return aSHA
 
